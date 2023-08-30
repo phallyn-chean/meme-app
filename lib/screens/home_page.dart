@@ -4,7 +4,6 @@ import 'package:meme_app/models/cart_card_models.dart';
 import 'package:meme_app/models/meme_models.dart';
 import 'package:meme_app/providers/cart_counter_provider.dart';
 import 'package:meme_app/services/meme_services.dart';
-import 'package:path/path.dart';
 import 'package:provider/provider.dart';
 
 class HomePage extends StatefulWidget {
@@ -26,6 +25,7 @@ class _HomePageState extends State<HomePage> {
 
   @override
   Widget build(BuildContext context) {
+    // ignore: unused_local_variable
     var memeCardProvider = Provider.of<CartCounterProvider>(context, listen: false);
     int cartCounter = context.watch<CartCounterProvider>().getCartCount;
     return Scaffold(
@@ -82,6 +82,7 @@ class _HomePageState extends State<HomePage> {
                     String memeName = snapshot.data!.data!.memes![index].name.toString();
                     String memeImageUrl = snapshot.data!.data!.memes![index].url.toString();
 
+                    // ignore: unused_local_variable
                     CartCardModels addCartItems = CartCardModels(id: memeId, nameCart: memeName, imageUrlCart: memeImageUrl);
                     return Card(
                       elevation: 10,
