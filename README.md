@@ -17,5 +17,5 @@ samples, guidance on mobile development, and a full API reference.
 ## Splash Screen
 <kbd><img src="https://github.com/phallyn-chean/meme-app/blob/master/screenshots/splash_screen.jpg" width="250" height="550"></kbd>
 
-- Home Screen
-screenshots/home_page.jpg
+## Home Screen
+<kbd><img src="https://github.com/phallyn-chean/meme-app/blob/master/screenshots/home_page.jpg" width="250" height="550"></kbd>
