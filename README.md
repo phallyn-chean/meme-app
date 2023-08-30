@@ -14,9 +14,8 @@ A few resources to get you started if this is your first Flutter project:
 For help getting started with Flutter development, view the
 [online documentation](https://docs.flutter.dev/), which offers tutorials,
 samples, guidance on mobile development, and a full API reference.
-
-- Splash Screen
-screenshots/splash_screen.jpg
+## Splash Screen
+<kbd><img src="https://github.com/phallyn-chean/meme-app/blob/master/screenshots/splash_screen.jpg" width="250" height="550"></kbd>
 
 - Home Screen
 screenshots/home_page.jpg
